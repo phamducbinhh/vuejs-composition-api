@@ -10,6 +10,17 @@ export default {
     },
   },
 };
+// const emit = defineEmits(["hideModal"]);
+// const handleClick = () => {
+//   emit("hideModal");
+// };
+// const props = defineProps({
+//   title: {
+//     type: String,
+//     required: true,
+//     default: "No title specified",
+//   },
+// });
 </script>
 <template>
   <teleport to="body">
